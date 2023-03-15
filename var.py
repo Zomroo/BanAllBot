@@ -12,8 +12,8 @@ def make_int(str_input):
     return int_list
 
 class Var:
-    API_ID = int(os.getenv("API_ID", "5148561602"))
-    API_HASH = os.getenv("API_HASH", "b8105dc4c17419dfd4165ecf1d0bc100")
+    API_ID = int(os.getenv("API_ID", "16844842"))
+    API_HASH = os.getenv("API_HASH", "f6b0ceec5535804be7a56ac71d08a5d4")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5619054777:AAF_XsEHxhJ7aXRRKowWzCR6R2u3vC1Hsi8")
     sudo = os.getenv("SUDO")
     SUDO = []
